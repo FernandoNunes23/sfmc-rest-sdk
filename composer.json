@@ -1,4 +1,9 @@
 {
+    "name": "fernando-nunes23/sfmc-rest-sdk",
+    "type": "library",
+    "description": "Salesforce Marketing Cloud sdk using REST API",
+    "homepage": "https://github.com/FernandoNunes23/sfmc-rest-sdk",
+    "license": "MIT",
     "require": {
         "league/oauth2-client": "^2.6",
         "phpfastcache/phpfastcache": "^8.0"
