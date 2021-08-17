@@ -1,0 +1,11 @@
+{
+    "require": {
+        "league/oauth2-client": "^2.6",
+        "phpfastcache/phpfastcache": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SfmcRestSdk\\": "src/"
+        }
+    }
+}
