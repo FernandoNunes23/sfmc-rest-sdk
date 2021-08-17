@@ -210,4 +210,9 @@ class Client
     {
         return new SyncCall($this);
     }
+
+    public function getProvider()
+    {
+        return $this->provider;
+    }
 }
