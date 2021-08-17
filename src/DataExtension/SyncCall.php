@@ -8,7 +8,7 @@ use SfmcRestSdk\Client;
 
 class SyncCall
 {
-    private Client $client;
+    private $client;
 
     /**
      * SyncCall constructor.

@@ -13,12 +13,12 @@ use Phpfastcache\Helper\Psr16Adapter;
  */
 class Client
 {
-    private string $clientId;
-    private string $clientSecret;
-    private string $urlAccessToken;
-    private string $subdomain;
-    private GenericProvider $provider;
-    private Psr16Adapter $cache;
+    private $clientId;
+    private $clientSecret;
+    private $urlAccessToken;
+    private $subdomain;
+    private $provider;
+    private $cache;
     private $requestClient;
 
     /**
