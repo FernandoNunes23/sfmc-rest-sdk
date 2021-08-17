@@ -6,6 +6,7 @@ namespace SfmcRestSdk;
 
 use League\OAuth2\Client\Provider\GenericProvider;
 use Phpfastcache\Helper\Psr16Adapter;
+use SfmcRestSdk\DataExtension\SyncCall;
 
 /**
  * Class Client
@@ -203,5 +204,10 @@ class Client
         }
 
         return $accessToken;
+    }
+
+    public function getSyncCall()
+    {
+        return new SyncCall($this);
     }
 }
